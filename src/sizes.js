@@ -14,6 +14,7 @@ async function getSizes() {
   }
 
   let ignore = (process.env.GLB_IGNORE || "").split(",");
+  let sizes = { totalSize: 0 };
 
   await axios({
     method: "post",
@@ -43,8 +44,6 @@ async function getSizes() {
       `,
     },
   }).then((response) => {
-    let sizes = { totalSize: 0 };
-
     for (let node of response.data.data.user.repositories.nodes) {
       for (let edge of node.languages.edges) {
         let name = edge.node.name;
@@ -63,9 +62,9 @@ async function getSizes() {
         }
       }
     }
-
-    return sizes;
   });
+
+  return sizes;
 }
 
 export { getSizes };
