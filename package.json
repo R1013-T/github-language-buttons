@@ -1,0 +1,24 @@
+{
+  "name": "github-language-buttons",
+  "version": "1.0.0",
+  "description": "GitHub Language Buttons",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yehwankim23/github-language-buttons.git"
+  },
+  "author": "김예환 Ye-Hwan Kim (Sam)",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/yehwankim23/github-language-buttons/issues"
+  },
+  "homepage": "https://github.com/yehwankim23/github-language-buttons#readme",
+  "devDependencies": {
+    "@primer/css": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest"
+  }
+}
