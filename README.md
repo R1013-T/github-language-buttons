@@ -1,5 +1,11 @@
 # GitHub Language Buttons
 
+## About
+
+An API that generates GitHub-button-themed SVGs that show the percentage of a language in public repositories
+
+Inspired by [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats) and [Shields.io](https://github.com/badges/shields)
+
 ## Preview
 
 Light themes (default, high contrast, Protanopia & Deuteranopia, Tritanopia)
