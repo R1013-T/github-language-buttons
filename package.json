@@ -16,8 +16,12 @@
     "url": "https://github.com/yehwankim23/github-language-buttons/issues"
   },
   "homepage": "https://github.com/yehwankim23/github-language-buttons#readme",
+  "dependencies": {
+    "axios": "latest"
+  },
   "devDependencies": {
     "@primer/css": "latest",
+    "js-yaml": "latest",
     "webpack": "latest",
     "webpack-cli": "latest"
   }

@@ -3,6 +3,7 @@ const path = require("path");
 module.exports = {
   mode: "production",
   entry: {
+    "languages-generator": path.resolve(__dirname, "tools/languages-generator/script.js"),
     "themes-generator": path.resolve(__dirname, "tools/themes-generator/script.js"),
   },
   output: {
