@@ -33,6 +33,10 @@ axios({
     }
   }
 
-  document.body.innerHTML = `export let languages = ${JSON.stringify(languages, null, " ")};`;
+  document.body.innerHTML = `let languages = ${JSON.stringify(
+    languages,
+    null,
+    " "
+  )}; export { languages };`;
   alert(`let longest = ${JSON.stringify(longest)};`);
 });

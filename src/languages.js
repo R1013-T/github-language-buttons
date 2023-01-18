@@ -1,4 +1,4 @@
-export let languages = {
+let languages = {
   "1C Enterprise": { width: 71, color: "#814ccc" },
   "2-Dimensional Array": { width: 113, color: "#38761d" },
   "4D": { width: 16, color: "#004289" },
@@ -546,3 +546,5 @@ export let languages = {
   wisp: { width: 26, color: "#7582d1" },
   xBase: { width: 33, color: "#403a40" },
 };
+
+export { languages };

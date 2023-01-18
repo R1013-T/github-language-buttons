@@ -1,7 +1,7 @@
-import languages from "./languages";
-import themes from "./themes";
-import { getSizes } from "./sizes";
-import percents from "./percents";
+import { languages } from "./languages.js";
+import { themes } from "./themes.js";
+import { getSizes } from "./sizes.js";
+import { percents } from "./percents.js";
 
 async function createButton(languageName, themeName) {
   let language = languages[languageName];

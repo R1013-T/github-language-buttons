@@ -15,4 +15,8 @@ for (let integer = 0; integer <= 100; integer++) {
   }
 }
 
-document.body.innerHTML = `export let percents = ${JSON.stringify(percents, null, " ")};`;
+document.body.innerHTML = `let percents = ${JSON.stringify(
+  percents,
+  null,
+  " "
+)}; export { percents }`;

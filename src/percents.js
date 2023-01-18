@@ -1,4 +1,4 @@
-export let percents = {
+let percents = {
   "0.0%": 26,
   "0.1%": 26,
   "0.2%": 26,
@@ -1001,3 +1001,5 @@ export let percents = {
   "99.9%": 32,
   "100.0%": 38,
 };
+
+export { percents };

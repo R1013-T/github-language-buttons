@@ -1,4 +1,4 @@
-import { createButton } from "../src/button";
+import { createButton } from "../src/button.js";
 
 export default async function handler(request, response) {
   try {

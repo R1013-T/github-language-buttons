@@ -30,4 +30,4 @@ for (let theme in colors) {
   };
 }
 
-document.body.innerHTML = `export let themes = ${JSON.stringify(themes, null, " ")};`;
+document.body.innerHTML = `let themes = ${JSON.stringify(themes, null, " ")}; export { themes };`;

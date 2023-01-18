@@ -1,4 +1,4 @@
-export let themes = {
+let themes = {
   light: {
     border_color: "#d5d8da",
     background_color: "#f6f8fa",
@@ -54,3 +54,5 @@ export let themes = {
     percent_color: "#8b949e",
   },
 };
+
+export { themes };
