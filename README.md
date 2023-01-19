@@ -10,11 +10,11 @@ Inspired by [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-s
 
 Light themes (default, high contrast, Protanopia & Deuteranopia, Tritanopia)
 
-![Preview (light default)](https://github-language-buttons.vercel.app/api?language=TI%20Program&theme=light) ![Preview (light high contrast)](https://github-language-buttons.vercel.app/api?language=Java&theme=light_high_contrast) ![Preview (light Protanopia & Deuteranopia)](https://github-language-buttons.vercel.app/api?language=Processing&theme=light_colorblind) ![Preview (light Tritanopia)](https://github-language-buttons.vercel.app/api?language=C%2b%2b&theme=light_tritanopia)
+![Preview (light default)](https://github-language-buttons.vercel.app/api?language=TI%20Program&theme=light) ![Preview (light high contrast)](https://github-language-buttons.vercel.app/api?language=Java&theme=light_high_contrast) ![Preview (light Protanopia & Deuteranopia)](https://github-language-buttons.vercel.app/api?language=Processing&theme=light_colorblind) ![Preview (light Tritanopia)](https://github-language-buttons.vercel.app/api?language=Python&theme=light_tritanopia)
 
 Dark themes (default, high contrast, Protanopia & Deuteranopia, Tritanopia, dimmed)
 
-![Preview (dark default)](https://github-language-buttons.vercel.app/api?language=Python) ![Preview (dark high contrast)](https://github-language-buttons.vercel.app/api?language=JavaScript&theme=dark_high_contrast) ![Preview (dark Protanopia & Deuteranopia)](https://github-language-buttons.vercel.app/api?language=VBScript&theme=dark_colorblind) ![Preview (dark Tritanopia)](https://github-language-buttons.vercel.app/api?language=PowerShell&theme=dark_tritanopia) ![Preview (dark dimmed)](https://github-language-buttons.vercel.app/api?language=AutoHotkey&theme=dark_dimmed)
+![Preview (dark default)](https://github-language-buttons.vercel.app/api?language=JavaScript) ![Preview (dark high contrast)](https://github-language-buttons.vercel.app/api?language=Batchfile&theme=dark_high_contrast) ![Preview (dark Protanopia & Deuteranopia)](https://github-language-buttons.vercel.app/api?language=VBScript&theme=dark_colorblind) ![Preview (dark Tritanopia)](https://github-language-buttons.vercel.app/api?language=PowerShell&theme=dark_tritanopia) ![Preview (dark dimmed)](https://github-language-buttons.vercel.app/api?language=AutoHotkey&theme=dark_dimmed)
 
 ## How to use
 
@@ -64,14 +64,14 @@ Dark themes (default, high contrast, Protanopia & Deuteranopia, Tritanopia, dimm
 Example
 
 - `DOMAIN` → `https://github-language-buttons.vercel.app`
-- `LANGUAGE` → `Visual%20Basic%20%2eNET` ([Percent-encoded](#percent-encoding) "Visual Basic .NET")
+- `LANGUAGE` → `C%2b%2b` ([Percent-encoded](#percent-encoding) "C++")
 - `THEME` → `dark`
 
 ```md
-[![GitHub Language Button](https://github-language-buttons.vercel.app/api?language=Visual%20Basic%20%2eNET&theme=dark)](https://github.com/yehwankim23/github-language-buttons)
+[![GitHub Language Button](https://github-language-buttons.vercel.app/api?language=C%2b%2b&theme=dark)](https://github.com/yehwankim23/github-language-buttons)
 ```
 
-![GitHub Language Button](https://github-language-buttons.vercel.app/api?language=Visual%20Basic%20%2eNET)
+![GitHub Language Button](https://github-language-buttons.vercel.app/api?language=C%2b%2b)
 
 ### Percent-encoding
 
