@@ -8,6 +8,8 @@ Inspired by [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-s
 
 ## Preview
 
+### Language Buttons
+
 Light themes (default, high contrast, Protanopia & Deuteranopia, Tritanopia)
 
 ![Preview (light default)](https://github-language-buttons.vercel.app/api?language=TI%20Program&theme=light) ![Preview (light high contrast)](https://github-language-buttons.vercel.app/api?language=Java&theme=light_high_contrast) ![Preview (light Protanopia & Deuteranopia)](https://github-language-buttons.vercel.app/api?language=Processing&theme=light_colorblind) ![Preview (light Tritanopia)](https://github-language-buttons.vercel.app/api?language=Python&theme=light_tritanopia)
@@ -15,6 +17,10 @@ Light themes (default, high contrast, Protanopia & Deuteranopia, Tritanopia)
 Dark themes (default, high contrast, Protanopia & Deuteranopia, Tritanopia, dimmed)
 
 ![Preview (dark default)](https://github-language-buttons.vercel.app/api?language=JavaScript) ![Preview (dark high contrast)](https://github-language-buttons.vercel.app/api?language=Batchfile&theme=dark_high_contrast) ![Preview (dark Protanopia & Deuteranopia)](https://github-language-buttons.vercel.app/api?language=VBScript&theme=dark_colorblind) ![Preview (dark Tritanopia)](https://github-language-buttons.vercel.app/api?language=PowerShell&theme=dark_tritanopia) ![Preview (dark dimmed)](https://github-language-buttons.vercel.app/api?language=AutoHotkey&theme=dark_dimmed)
+
+### Language Bar
+
+![Preview (Language Bar)](https://github-language-buttons.vercel.app/api/bar?width=415)
 
 ## How to use
 
@@ -51,7 +57,9 @@ Dark themes (default, high contrast, Protanopia & Deuteranopia, Tritanopia, dimm
 
 ![How to use (ignore)](how-to-use-10.png)
 
-11. Copy and paste the following Markdown and change `DOMAIN`, `LANGUAGE`, and `THEME`
+### Language Buttons
+
+Copy and paste the following Markdown and change `DOMAIN`, `LANGUAGE`, and `THEME`
 
 > [Supported languages](/src/languages.js)
 
@@ -71,7 +79,30 @@ Example
 [![GitHub Language Button](https://github-language-buttons.vercel.app/api?language=C%2b%2b&theme=dark)](https://github.com/yehwankim23/github-language-buttons)
 ```
 
+Result
+
 ![GitHub Language Button](https://github-language-buttons.vercel.app/api?language=C%2b%2b)
+
+### Language Bar
+
+Copy and paste the following Markdown and change `DOMAIN` and `WIDTH`
+
+```md
+[![GitHub Language Bar](DOMAIN/api/bar?width=WIDTH)](https://github.com/yehwankim23/github-language-buttons)
+```
+
+Example
+
+- `DOMAIN` → `https://github-language-buttons.vercel.app`
+- `WIDTH` → `415`
+
+```md
+[![GitHub Language Bar](https://github-language-buttons.vercel.app/api/bar?width=415)](https://github.com/yehwankim23/github-language-buttons)
+```
+
+Result
+
+![GitHub Language Bar](https://github-language-buttons.vercel.app/api/bar?width=415)
 
 ### Percent-encoding
 
