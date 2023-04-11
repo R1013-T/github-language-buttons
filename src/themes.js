@@ -1,9 +1,9 @@
 let themes = {
   light: {
-    border_color: "#d5d8da",
+    border_color: "#d6d8db",
     background_color: "#f6f8fa",
-    language_color: "#24292f",
-    percent_color: "#57606a",
+    language_color: "#1F2328",
+    percent_color: "#656d76",
   },
   light_high_contrast: {
     border_color: "#2f3237",
@@ -26,8 +26,8 @@ let themes = {
   dark: {
     border_color: "#363b42",
     background_color: "#21262d",
-    language_color: "#c9d1d9",
-    percent_color: "#8b949e",
+    language_color: "#e6edf3",
+    percent_color: "#7d8590",
   },
   dark_dimmed: {
     border_color: "#474e57",
