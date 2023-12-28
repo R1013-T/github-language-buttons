@@ -1,5 +1,8 @@
 # GitHub Language Buttons
 
+> [!WARNING]
+> This repository is outdated. Unless you are planning to make changes, please delete this repository and use [GitHub Profile Languages](https://github.com/yehwankim23/github-profile-languages) instead. Thank you 🙂
+
 ## About
 
 An API that generates GitHub-button-themed SVGs that show the percentage of a language in public repositories
